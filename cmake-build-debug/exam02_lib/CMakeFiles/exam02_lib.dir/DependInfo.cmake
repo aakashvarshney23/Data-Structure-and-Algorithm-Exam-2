@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/map.cpp" "C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj"
+  "C:/Users/aakas/CLionProjects/lab-exam-2.b/lib/exam02/src/map.cpp" "C:/Users/aakas/CLionProjects/lab-exam-2.b/cmake-build-debug/exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,9 +1,15 @@
 #ifndef MAP_H
 #define MAP_H
 #include <string>
+#include "node.h"
+
 
 class map
 {
+private:
+    int count;
+    node *head;
+
 public:
     map();  // Default constructor
     ~map(); // Default desctructor

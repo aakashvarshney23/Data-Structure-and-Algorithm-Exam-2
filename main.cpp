@@ -2,6 +2,10 @@
 #include "map.h"
 
 int main() {
-    std::cout << "CMPE 126 Lab Exam 2" << std::endl;
-    return 0;
+    map a;
+    a.insert("Aakash", 4);
+    a.insert("Dhruv" ,2);
+
+   a.clear();
+    a.print();
 }

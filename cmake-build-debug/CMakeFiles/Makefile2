@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02"
+CMAKE_SOURCE_DIR = C:\Users\aakas\CLionProjects\lab-exam-2.b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/exam02_main.dir
@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_ex
 CMakeFiles/exam02_main.dir/all: exam02_lib/CMakeFiles/exam02_lib.dir/all
 	$(MAKE) -f CMakeFiles\exam02_main.dir\build.make CMakeFiles/exam02_main.dir/depend
 	$(MAKE) -f CMakeFiles\exam02_main.dir\build.make CMakeFiles/exam02_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target exam02_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target exam02_main"
 .PHONY : CMakeFiles/exam02_main.dir/all
 
 # Include target in all.
@@ -75,9 +75,9 @@ all: CMakeFiles/exam02_main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exam02_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/exam02_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/exam02_main.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ clean: CMakeFiles/exam02_main.dir/clean
 CMakeFiles/cmpe126f17_exam2.dir/all:
 	$(MAKE) -f CMakeFiles\cmpe126f17_exam2.dir\build.make CMakeFiles/cmpe126f17_exam2.dir/depend
 	$(MAKE) -f CMakeFiles\cmpe126f17_exam2.dir\build.make CMakeFiles/cmpe126f17_exam2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target cmpe126f17_exam2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target cmpe126f17_exam2"
 .PHONY : CMakeFiles/cmpe126f17_exam2.dir/all
 
 # Include target in all.
@@ -112,9 +112,9 @@ all: CMakeFiles/cmpe126f17_exam2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cmpe126f17_exam2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cmpe126f17_exam2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/cmpe126f17_exam2.dir/rule
 
 # Convenience name for target.
@@ -157,7 +157,7 @@ exam02_lib/preinstall:
 exam02_lib/CMakeFiles/exam02_lib.dir/all:
 	$(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/depend
 	$(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target exam02_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target exam02_lib"
 .PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/all
 
 # Include target in all.
@@ -167,9 +167,9 @@ all: exam02_lib/CMakeFiles/exam02_lib.dir/all
 
 # Build rule for subdir invocation for target.
 exam02_lib/CMakeFiles/exam02_lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 exam02_lib/CMakeFiles/exam02_lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 0
 .PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ test/CMakeFiles/runBasicTests.dir/all: test/lib/gtest-1.7.0/CMakeFiles/gtest.dir
 test/CMakeFiles/runBasicTests.dir/all: test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/all
 	$(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/depend
 	$(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target runBasicTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target runBasicTests"
 .PHONY : test/CMakeFiles/runBasicTests.dir/all
 
 # Include target in all.
@@ -226,9 +226,9 @@ all: test/CMakeFiles/runBasicTests.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runBasicTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 8
 	$(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/runBasicTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 0
 .PHONY : test/CMakeFiles/runBasicTests.dir/rule
 
 # Convenience name for target.
@@ -273,7 +273,7 @@ test/lib/gtest-1.7.0/preinstall:
 test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f test\lib\gtest-1.7.0\CMakeFiles\gtest.dir\build.make test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f test\lib\gtest-1.7.0\CMakeFiles\gtest.dir\build.make test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -283,9 +283,9 @@ all: test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 0
 .PHONY : test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -310,7 +310,7 @@ clean: test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/clean
 test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/all: test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test\lib\gtest-1.7.0\CMakeFiles\gtest_main.dir\build.make test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f test\lib\gtest-1.7.0\CMakeFiles\gtest_main.dir\build.make test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -320,9 +320,9 @@ all: test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 4
 	$(MAKE) -f CMakeFiles\Makefile2 test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\aakas\CLionProjects\lab-exam-2.b\cmake-build-debug\CMakeFiles 0
 .PHONY : test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

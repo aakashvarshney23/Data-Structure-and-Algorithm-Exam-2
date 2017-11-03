@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../lib/exam02/inc/node.h
-
-../lib/exam02/inc/ordered_linkedlist.h
+../lib/exam02/inc/map.h
+string
+-
 node.h
 ../lib/exam02/inc/node.h
 
-C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/main.cpp
+../lib/exam02/inc/node.h
 iostream
 -
-ordered_linkedlist.h
-C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/ordered_linkedlist.h
+
+C:/Users/aakas/CLionProjects/lab-exam-2.b/main.cpp
+iostream
+-
+map.h
+C:/Users/aakas/CLionProjects/lab-exam-2.b/map.h
 
