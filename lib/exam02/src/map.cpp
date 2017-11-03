@@ -1,6 +1,8 @@
 #include "map.h"
 #include <string>
 
+using namespace std;
+
 map::map() {
     count = 0;
     head = nullptr;
@@ -13,15 +15,13 @@ map::~map() {
 
 void map::insert(std::string key, int value) {
     node *newNode;  // A new node
-    node *pCur;     // To traverse the list
     newNode = new node("0", 0);
     newNode->key = key;
     newNode->data = value;
-    if(head == nullptr){
+    if (head == nullptr) {
         head = newNode;
         count++;
-    }
-   else if (head!= nullptr){
+    } else if (head != nullptr) {
         newNode->next = head;
         head = newNode;
         count++;
@@ -46,55 +46,54 @@ int map::get(std::string key) {
 }
 
 bool map::erase(std::string key) {
-    node* ptr = head;
-    node* previous = nullptr;
-    int counter = count;
 
-    while (counter != 0 && ptr->key != key) {
-        previous = ptr;
-        ptr = ptr->next;
-        counter--;
+    if (head == nullptr)
+        std::cout << "Nothing to erase" << std::endl;
+    else {
+        node *temp = head;
+        node *prev;
+        node *runner;
+        while (temp->key != key) {
+            prev = temp;
+            temp = temp->next;
+        }
+        runner = temp->next;
+        prev->next = runner;
+        delete temp;
+        count--;
+        if(temp->next== nullptr)
+            temp= nullptr;
     }
-
-    if (counter == 0) {
-
-        return false;
-    }
-    else if( ptr->key == key)
-    {
-        previous->next = ptr;
-        ptr->next = nullptr;
-        delete ptr;
-        return true;
-    }
-
 }
 
 void map::print() {
     node *temp = head;
     while (temp != nullptr) {
-        std::cout << "Key : " << temp->key << "->" << temp->data<< std::endl;
+        std::cout << "Key : " << temp->key << "->" << temp->data << std::endl;
         temp = temp->next;
     }
 }
 
 void map::clear() {
-    if (count == 0) {
-        return;
-    }
+    node *temp;
+    node *current = head;
+    if (current == nullptr)
+        std::cout << "Nothing to erase" << std::endl;
+    else {
+        while (current != nullptr) {
+            temp = current;
+            current = current->next;
+            delete temp;
 
-    node* ptr = head->next;
-    while (count != 0) {
-
-        node* temp = ptr;
-        head->next = temp->next;
-        temp->next = nullptr;
-        delete temp;
-        ptr = head->next;
-        count--;
+        }
     }
 }
 
 int &map::operator[](std::string key) {
+    node *temp = head;
+    while (temp->key != key) {
+        temp = temp->next;
+    }
+    return temp->data;
 
 }
